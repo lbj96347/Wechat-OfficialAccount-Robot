@@ -37,8 +37,6 @@ exports._LOGIN = function ( req , res ){
 /*
  * 登陆并发送一条消息
  * 需要添加Referer，token，cookies
- * 公司内部测试名单 fakeid
- * '154388600', '302478840', '321821655', '1014511821', '175609', '469038400', '377450095'
  */ 
 exports._MESSAGE = function ( req , res ){
 
@@ -169,8 +167,6 @@ exports._GROUP_MESSAGE = function ( req , res ){
   getMsg = '我来测试啦啦啦了!!!!这里是Group type啊！千万要小心'
   console.log( getMsg );
   /* 
-   * 公司内部测试名单
-   * '154388600', '302478840', '321821655', '1014511821', '175609', '469038400', '377450095'
    */
   fakeids = [ '486718695' ];
   return wx.login(req, function(err, cookie) {
