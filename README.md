@@ -8,7 +8,7 @@
 
   Version : v0.0.1
 
-#USAG
+#USAGE
 
   git clone https://github.com/lbj96347/Wechat-OfficialAccount-Robot.git
 
