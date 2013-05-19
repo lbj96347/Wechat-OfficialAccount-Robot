@@ -1,0 +1,17 @@
+{
+  "name": "wechat-robot-sdk",
+  "description": "wechat-robot-sdk for wechat official platform auto management created by CashLee",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "express": "",
+    "jade": "",
+    "node-jquery" : "",
+    "superagent" : "0.13.0",
+    "MD5" : "",
+    "restler" : "",
+    "needle" :"",
+    "spooky" : "",
+    "http-get" : "" 
+  }
+}
